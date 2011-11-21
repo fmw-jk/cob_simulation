@@ -22,3 +22,4 @@ rosbuild_add_executable(create_colored_point_cloud ros/src/create_colored_point_
 
 # rostest
 rosbuild_add_roslaunch_check(ros/launch/robot.launch ROBOT=cob3-3)
+rosbuild_add_rostest(ros/launch/arm.test)
